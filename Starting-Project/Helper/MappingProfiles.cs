@@ -9,7 +9,7 @@ namespace Starting_Project.Helper
         public MappingProfiles()
         {
             CreateMap<Candidate, CandidateDto>().ReverseMap();
-            CreateMap<Program, ProgramDto>().ReverseMap();
+            CreateMap<Programs, ProgramsDto>().ReverseMap();
             CreateMap<Questions, QuestionsDto>().ReverseMap();
         }
     }

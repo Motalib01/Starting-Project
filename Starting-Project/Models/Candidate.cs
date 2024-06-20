@@ -19,6 +19,6 @@ namespace Starting_Project.Models
         public String Gender { get; set; }
 
 
-        public ICollection<CandidateProgram> CandidatePrograms { get; set; }
+        public ICollection<CandidatePrograms> CandidatePrograms { get; set; }
     }
 }

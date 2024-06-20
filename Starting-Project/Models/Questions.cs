@@ -10,6 +10,6 @@
 
 
         public int ProgramId { get; set; }
-        public Program Program { get; set; }
+        public Programs Program { get; set; }
     }
 }
